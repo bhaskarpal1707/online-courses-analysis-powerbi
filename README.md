@@ -7,18 +7,19 @@
 
 ---
 
-## 📑 Table of Contents:
-1. [Overview](#Overview)
-2. [Business Problem](#Business-Problem)
-3. [Dataset](#Dataset)
-4. [Tools & Technologies](#Tools-&-Technologies)
-5. [Project Structure](#Project-Structure)
-6. [Data Cleaning & Preparation](#Data-Cleaning-&-Preparation)
-7. [DAX Queries](#Dax-Queries)
-8. [Custom Columns](#Custom-Columns)
-9. [Research Questions & Key Findings](#Research-Questions--Key-Findings)
-10. [Final Recommendations](#Final-Recommendations)
-11. [Author & Contact](#Author--Contact)
+## 📑 Table of Contents
+1. [Overview](#overview)
+2. [Category Distribution & Course Types](#category-distribution--course-types)
+3. [Viewer Engagement Patterns](#viewer-engagement-patterns)
+4. [In-Demand Skills](#in-demand-skills)
+5. [Language Preferences](#language-preferences)
+6. [Subtitle Impact](#subtitle-impact)
+7. [Top Instructor Insights](#top-instructor-insights)
+8. [Duration vs Engagement](#duration-vs-engagement)
+9. [Skills Variety](#skills-variety)
+10. [Final Recommendations](#final-recommendations)
+11. [Author & Contact](#author--contact)
+
 
 ---
 
