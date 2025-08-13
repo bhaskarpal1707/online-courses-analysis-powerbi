@@ -5,6 +5,8 @@
 
 # Dashboard
 
+![Image](https://github.com/bhaskarpal1707/online-courses-analysis-powerbi/blob/main/Dashboard%20Image.png?raw=true)
+
 ---
 
 ## 📑 Table of Contents:
