@@ -8,17 +8,17 @@
 ---
 
 ## 📑 Table of Contents:
-1. [Overview](#overview)
-2. [Business Problem](#business-problem)
-3. [Dataset](#dataset)
-4. [Tools & Technologies](#tools--technologies)
-5. [Project Structure](#project-structure)
-6. [Data Cleaning & Preparation](#data-cleaning--preparation)
-7. [DAX Queries](#dax-queries)
-8. [Custom Columns](#custom-columns)
-9. [Research Questions & Key Findings](#research-questions--key-findings)
-10. [Final Recommendations](#final-recommendations)
-11. [Author & Contact](#author--contact)
+1. [Overview](#Overview)
+2. [Business Problem](#Business-Problem)
+3. [Dataset](#Dataset)
+4. [Tools & Technologies](#Tools-&-Technologies)
+5. [Project Structure](#Project-Structure)
+6. [Data Cleaning & Preparation](#Data-Cleaning-&-Preparation)
+7. [DAX Queries](#Dax-Queries)
+8. [Custom Columns](#Custom-Columns)
+9. [Research Questions & Key Findings](#Research-Questions--Key-Findings)
+10. [Final Recommendations](#Final-Recommendations)
+11. [Author & Contact](#Author--Contact)
 
 ---
 
