@@ -8,9 +8,9 @@
 ---
 
 ## 📑 Table of Contents:
-1. [Overview:](#overview:)
-2. [Business Problem:](#business-problem:)
-3. [Dataset:](#dataset:)
+1. [Overview](#overview)
+2. [Business Problem](#business-problem)
+3. [Dataset](#dataset)
 4. [Tools & Technologies](#tools--technologies)
 5. [Project Structure](#project-structure)
 6. [Data Cleaning & Preparation](#data-cleaning--preparation)
@@ -22,14 +22,14 @@
 
 ---
 
-## 📌 Overview:
+## 📌 Overview
 This project analyzes around **10,000 online courses** sourced from multiple platforms like **Coursera, Udacity, Simplilearn, and FutureLearn**, providing deep insights into **category trends, skill demand, instructor performance, and engagement patterns**.  
 The Power BI dashboard built from this dataset offers **data-driven strategic recommendations** for content development and learner engagement optimization.
 The goal was to uncover actionable insights into **course categories, viewership patterns, skills demand, language preferences, instructor quality, and content strategies** for the EdTech sector.
 
 ---
 
-## 💼 Business Problem:
+## 💼 Business Problem
 With the rapid growth of online education, understanding **what drives learner engagement, which skills are in demand, and how to optimize course offerings** is crucial for competitive advantage.  
 This analysis aims to:
 - Examine the distribution of course types across categories to uncover trends and insights, enabling the client to strategically determine which course types to launch in specific categories for maximum impact and alignment with learner demand, also count the number of courses by category and sub-category.
@@ -44,7 +44,7 @@ This analysis aims to:
 
 ---
 
-## 📂 Dataset:
+## 📂 Dataset
 **Source:** Kaggle — *Online Courses Dataset*
 **Link:** https://www.kaggle.com/datasets/khaledatef1/online-courses
 
@@ -55,7 +55,7 @@ This analysis aims to:
 
 ---
 
-## 🛠 Tools & Technologies:
+## 🛠 Tools & Technologies
 - **Power BI** → Dashboard creation & visualization
 - **Microsoft Power Query** → Data cleaning & transformation
 - **DAX (Data Analysis Expressions)** → Measures and calculated columns for analysis 
@@ -63,7 +63,7 @@ This analysis aims to:
 
 ---
 
-## 📁 Project Structure:
+## 📁 Project Structure
 Online-Courses-Analysis/
 │── data/
 │ └── Online_Courses.csv
@@ -74,7 +74,7 @@ Online-Courses-Analysis/
 
 ---
 
-## 🧹 Data Cleaning & Preparation:
+## 🧹 Data Cleaning & Preparation
 Performed in **Power Query**:
 - Removed errors
 - Removed duplicates
@@ -89,7 +89,7 @@ Performed in **Power Query**:
 
 ---
 
-## 📊 DAX Queries:
+## 📊 DAX Queries
 ```DAX
 -- Rank Category by Average Views
 Rank_category_by_average_views = 
@@ -115,7 +115,7 @@ IF(
 
 ```
 ---
-# 🧩 Custom Columns:
+# 🧩 Custom Columns
 ```
 -- Count of Skills Provided
 Text.Length([Skills]) - Text.Length(Text.Replace([Skills], ",", ""))
@@ -135,7 +135,7 @@ List.Count(Text.Split([Subtitle Languages], ","))
 ```
 ---
 
-## 🔍 Research Questions & Key Findings:
+## 🔍 Research Questions & Key Findings
 
 ### **Category Distribution & Course Types**
 - **Findings:**
@@ -211,7 +211,7 @@ List.Count(Text.Split([Subtitle Languages], ","))
   - Cross-functional skill combinations perform exceptionally well.
 
  ---
- ## 📌 Final Recommendations:
+ ## 📌 Final Recommendations
 
 ### **Immediate (0–3 months)**
 - Expand Computer Science & Business offerings.
@@ -230,7 +230,7 @@ List.Count(Text.Split([Subtitle Languages], ","))
 
 ---
 
-## 👤 Author & Contact:
+## 👤 Author & Contact
 **Bhaskar Pal**  
 Aspiring Data Analyst  
 📧 **Email:** [bhaskarpal.official@gmail.com](mailto:bhaskarpal.official@gmail.com)  
